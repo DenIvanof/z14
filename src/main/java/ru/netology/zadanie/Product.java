@@ -10,7 +10,7 @@ public class Product {
         this.title = title;
         this.price = price;
     }
-
+/**
     // Вспомогательные методы для корректной работы equals
     @Override
     public boolean equals(Object o) {
@@ -24,7 +24,7 @@ public class Product {
     public int hashCode() {
         return Objects.hash(id, title, price);
     }
-
+*/
     public int getId() {
         return id;
     }
